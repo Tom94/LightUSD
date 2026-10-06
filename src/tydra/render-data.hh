@@ -1737,7 +1737,7 @@ struct SceneMetadata
   nonstd::optional<double> endTimeCode;
   double framesPerSecond{24.0};
   double timeCodesPerSecond{24.0};
-  double metersPerUnit{1.0}; // default [m]
+  double metersPerUnit{0.01}; // default [cm] per USD spec
 
   bool autoPlay{true};
 
